@@ -9,5 +9,11 @@ public class BinaryTree_Client {
 		bt.Display();
 		System.out.println(bt.max());
 		System.out.println(bt.find(50));
-    }
-    }
+     		System.out.println(bt.ht());
+		bt.PreOrder();
+		bt.INOrder();
+		bt.POStOrder();
+     
+     }
+   
+   }
